@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="materialize/css/materialize.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <nav>
+                <div class="nav-wrapper">
+                    <div class="col s12">
+                        <span class="breadcrumb">Формат файла</span>
+                        <!--<span class="breadcrumb hide">Тип данных</span>
+                        <span class="breadcrumb hide">Сортировка</span>
+                        <span class="breadcrumb hide">Загрузка</span>
+                        <span class="breadcrumb hide">Прогресс</span>
+                        <span class="breadcrumb hide">Результат</span>-->
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="row">
+            <div class="col s12 helper">
+                Выберите формат файла:
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 page input-field">
+                <select>
+                    <option value="0">Новая строка</option>
+                    <option value="1">JSON</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s6 next">
+                <button onclick="app.next();" style="width:100%;" class="btn green">Далее</button>
+            </div>
+            <div class="col s6 refresh">
+                <button onclick="window.location.reload();" style="width:100%;" class="btn orange">Заново</button>
+            </div>
+        </div>
+    </div>
+    <script src="jquery/jquery-3.1.1.min.js"></script>
+    <script src="Scripts/jquery.signalR-2.2.1.js"></script>
+    <script src="/signalr/hubs"></script>
+    <script src="materialize/js/materialize.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
