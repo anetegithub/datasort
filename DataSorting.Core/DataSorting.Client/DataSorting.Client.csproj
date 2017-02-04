@@ -106,6 +106,8 @@
     <Content Include="materialize\fonts\roboto\Roboto-Thin.woff" />
     <Content Include="materialize\fonts\roboto\Roboto-Thin.woff2" />
     <Content Include="packages.config" />
+    <Content Include="пузырьком.txt" />
+    <None Include="Properties\PublishProfiles\datasorting.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
